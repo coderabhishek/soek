@@ -1,28 +1,22 @@
 # Intranet-Search
 
-Basic search for IITG Intranet. To test, follow below the steps:
+Search utility for IITG intranet!!
+
+Main spider is named soek!!
+
 
 ```
-scrapy crawl IITG
+scrapy crawl soek
 ```
 
-Links will be saved in log.txt. Remove first line of log.txt and rename the file to links.txt.
-Run the following for indexing.
-```
-python indexor.py
-```
-
-Edit the search query in search.py, and run search.py
+Indexes.txt file will be formed.
 
 ```
-python search.py
+python indexer.py
 ```
 
+Search using:
+```
+python search.py query
+```
 
-> **Todo:**
-
-
-> - Implement threading for the crawler indexing and link scraping.
-> - Allow search.py to take CLI arguments as search queries.
-> - Implement pagination of search results, echo total number of links.
-> - Think of features and implement them for the search.
