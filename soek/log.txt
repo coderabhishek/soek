@@ -1,0 +1,1 @@
+SETLOG logger setup done
